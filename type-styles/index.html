@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .font_h1{
+                font-family:fantasy, papyrus;
+                text-align: center;
+                color:slategrey;
+                padding: 5%;
+                font-weight:bolder;
+                
+            }
+
+            .type{
+                font-family:fantasy, papyrus;
+                color:slategrey;
+                font-size: 30px;
+                margin-left: 10%;
+            }
+
+            .style{
+                font-family: fantasy, papyrus;
+                color:slategrey;
+                font-size: 10px;
+                margin-left: 10%;
+                font-weight:bolder;
+            }
+
+            .font{
+                font-family: fantasy, papyrus;
+                color:rgb(75, 20, 112);
+                font-size: 20px;
+                margin-left: 10%;
+            }
+
+            .normal{
+                font-weight: normal;
+            }
+            .light{
+                font-weight:lighter
+            }
+            .bold{
+                font-weight:bolder
+            }
+
+            .column {
+            padding:  0;
+            display: inline;
+            }
+
+            .left {
+            width: 50%;
+            float: left;
+            }
+
+            .right {
+            width: 50%;
+            }
+
+            .row:after {
+            content: "";
+            display: inline-block;
+            }
+        </style>
+    </head>
+    <body style=background-color:seashell;>
+        <div class = font_h1>
+            <h1>
+                Font: Papyrus
+                <br>
+                Size: 20pt
+                <br>
+            </h1>
+        </div>
+
+        <div class = row>
+            <div class = "column left">
+                <div class = type>
+                    Font Weight
+                </div>
+                <div class = style>
+                    <p>Font Weight: Lighter</p>
+                </div>
+                <div class = font>
+                    <div class = light>
+                        <p>Sally sells seashells by the seashore!</p>
+                    </div>
+                </div>
+                <div class = style>
+                    <p>Font Weigt: Normal</p>
+                </div>
+                <div class = font>
+                    <div class = normal>
+                        <p>Sally sells seashells by the seashore!</p>
+                    </div>
+                </div>
+                <div class = style>
+                    <p>Font Weigt: Bold</p>
+                </div>
+                <div class = font>
+                    <div class = bold>
+                        <p>Sally sells seashells by the seashore!</p>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class = type>
+                    Font Style
+                </div>
+                <div class = style>
+                    <p>Font Style: Normal</p>
+                </div>
+                <div class = font>
+                    <p>Sally sells seashells by the seashore!</p>
+                </div>
+
+                <div class = style>
+                    <p>Font Style: Italics</p>
+                </div>
+                <div class = font>
+                    <p><i>Sally sells seashells by the seashore!</i></p>
+                </div>
+
+                <br>
+
+                <div class = type>
+                    Text Decoration
+                </div>
+                <div class = style>
+                    <p>Text Decoration: Underline</p>
+                </div>
+                <div class = font>
+                    <p style=text-decoration:underline>Sally sells seashells by the seashore!</p>
+                </div>
+
+                <div class = style>
+                    <p>Text Decoration: Line-Through</p>
+                </div>
+                <div class = font>
+                    <p style=text-decoration:line-through>Sally sells seashells by the seashore!</i></p>
+                </div>
+
+                <div class = style>
+                    <p>Text Decoration: Overline</p>
+                </div>
+                <div class = font>
+                    <p style=text-decoration:overline>Sally sells seashells by the seashore!</i></p>
+                </div>
+        </div>
+
+        <div class = "column right">
+            <div class = type>
+                Font Spacing
+            </div>
+            <div class = style>
+                <p>Font Spacing: 1em</p>
+            </div>
+            <div class = font>
+                <p style=letter-spacing:1em>Sally sells seashells by the seashore!</p>
+            </div>
+            <div class = style>
+                <p>Font Spacing: -0.1em</p>
+            </div>
+            <div class = font>
+                <p style=letter-spacing:-0.1em>Sally sells seashells by the seashore!</p>
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+            <div class = type>
+                Font Transform
+            </div>
+            <div class = style>
+                <p>Font Transform: Uppercase</p>
+            </div>
+            <div class = font>
+                <p style=text-transform:uppercase>Sally sells seashells by the seashore!</p>
+            </div>
+            <div class = style>
+                <p>Font Transform: Capitalize</p>
+            </div>
+            <div class = font>
+                <p style=text-transform:capitalize>Sally sells seashells by the seashore!</p>
+            </div>
+
+        </div>
+    </div>
+    </body>
+</html>
