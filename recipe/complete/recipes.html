@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes Page</title>
+
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body>
+    
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="about.html" class="nav-link"> about </a>
+          <a href="tags.html" class="nav-link"> tags </a>
+          <a href="recipes.html" class="nav-link"> recipes </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- main -->
+    <main class="page">
+      <section class="recipes-container">
+        <div class="tags-container">
+          <h4>recipes</h4>
+          <div class="tags-list">
+            <a href="tag-bakery.html">Bakery (1)</a>
+            <a href="tag-breakfast.html">Breakfast (1)</a>
+            <a href="tag-snacks.html">Snacks (1)</a>
+            <a href="tag-desert.html">Desert (1)</a>
+          </div>
+        </div>
+
+        <div class="recipes-list">
+          <!-- Recipe 1 -->
+          <a href="recipes_overall.html" class="recipe">
+            <img
+              src="./resources/recipes/Vanilla Crepe_Content.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Vanila Crepe</h5>
+            <p>Prep : 10min | Cook : 20min</p>
+          </a>
+        </div>
+      </section>
+    </main>
+    
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">Foodtionary</span> Built by
+        Jungmin Kang
+      </p>
+    </footer>
+  </body>
+</html>
