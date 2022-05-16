@@ -1,0 +1,139 @@
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.contents {
+    width: 960px;
+    margin: auto;
+    padding: 42px 0 20px 0;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    color: white
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+
+header {
+    text-align: center; 
+    background-image: url(https://wp-denverite.s3.amazonaws.com/wp-content/uploads/sites/4/2019/12/191213-BERKELEY-DOGS-PARK-ANIMALS-PETS-KEVINJBEATY-21.jpg?resize=1352,760);
+    background-size: cover;
+    background-position: center;
+}
+
+header .contents {
+    padding: 152px 0 186px 0;
+}
+
+header h1 {
+    font-size: 80px;
+    color: white;
+    margin-bottom: 0;
+}
+
+header h2 {
+ font-size: 30px;
+ line-height: 1.1;
+ color: white;
+}
+
+#section1 p{
+    font-size: 18px;
+    line-height: 1.4;
+
+}
+
+#section1 {
+    background-color: rgba(73, 10, 102, 0.87);
+    padding-bottom: 16px;
+    color: white;
+}
+
+#section1 img {
+    float: right;
+    border: 1px solid #ffffff;
+    margin: 0 0 20px 37px;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+
+h3 {
+    font-size: 20px;
+
+}
+
+#section2 p {
+    line-height: 1.4;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#section2 li {
+    padding-right: 30px;
+    color: white;
+}
+
+#section2 {
+    background-color: rgb(211, 214, 43);
+    padding-bottom: 16px;
+}
+
+#section2 img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    float: left;
+    margin-bottom: 24px; 
+    margin-right: 12px;
+}
+
+
+.dogs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    line-height: 1.3;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+#section3 p{
+    text-align: center;
+    font-size: 26px;
+    padding: 0 125px 0 125px;
+    margin-bottom: 84px;
+    padding-bottom: 15px;
+    line-height: 1.4;
+    color: white;
+}
+
+#section3 {
+    background-color: rgba(240, 205, 52, 0.55);
+}
+
+#section3 h1{
+    color: white;
+    line-height: 1.56;
+    margin-bottom: 26px;
+}
+
+
+footer p{
+    font-size: 19px;
+    padding: 22px 0 35px 163px;
+    letter-spacing: -.1px;
+    color: white;
+    margin: 0;
+}
+
+footer {
+    background-color: rgba(0, 133, 71, 0.692);
+}
